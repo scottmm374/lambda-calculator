@@ -18,7 +18,7 @@ const Specials = () => {
 
 {specialState.map((item, index) => {
          console.log("item", item);
-         return <SpecialButton key={index} number={item} />
+         return <SpecialButton key={index} special={item} />
        })}
     </div>
   );
