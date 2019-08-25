@@ -7,9 +7,9 @@ import NumberButton from './NumberButton';
 //Import your array data to from the provided data file
 
 const Numbers = () => {
-  const [numberState, setNumberState] = useState(numbers.numbers);
+  const [numberState] = useState(numbers.numbers);
   // console.log(numbers)
-  console.log(numberState)
+  // console.log(numberState)
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
@@ -19,7 +19,7 @@ const Numbers = () => {
       
 
        {numberState.map((item, index) => {
-         console.log("item", item);
+        //  console.log("item", item);
          return <NumberButton key={index} number={item} />
        })}
     </div>
