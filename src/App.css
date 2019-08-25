@@ -2,5 +2,52 @@
     min-height: 600px;
     width: 400px;
     margin: 0 auto;
-    border: 1px solid red;
+    border: 1px solid grey;
+    background: #d33d3d;
+    border-radius: 10px;
+}
+
+.display-container {
+    width: 345px;
+    min-height: 80px;
+    background: darkslategrey;
+    border-radius: 50px;
+    margin-left: 25px;
+    display: flex;
+    
+}
+
+.display-container .zero {
+    color: white;
+    font-size: 40px;
+    justify-content: left;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.buttons {
+    color: white;
+    font-size: 20px;;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 7px 10px black;
+    
+}
+
+.num-button {
+    background: #5a67af;
+}
+
+.operator-button {
+    background: #9199c7;
+   
+}
+
+.special-button {
+    background: #2e48dd;
+    
 }

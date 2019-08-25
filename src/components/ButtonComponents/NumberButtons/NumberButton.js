@@ -4,9 +4,9 @@ const NumberButton = (props) => {
   // console.log("otherprops", props)
  
   return (
-    <>
-      <button className="num-button">{props.number}</button>
-    </>
+    <div className="number-container">
+      <button className="num-button buttons">{props.number}</button>
+    </div>
   );
 };
 

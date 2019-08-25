@@ -2,9 +2,9 @@ import React from "react";
 
 const OperatorButton = (props) => {
   return (
-    <>
-      <button className="num-button">{props.operator.char}</button>
-    </>
+    <div className="operator-container">
+      <button className="operator-button buttons">{props.operator.char}</button>
+    </div>
   );
 };
 
