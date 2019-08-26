@@ -5,7 +5,7 @@
     border: 1px solid grey;
     background: #d33d3d;
     border-radius: 10px;
-   
+    box-shadow: 0 7px 10px black;
 }
 
 .display-container {
@@ -14,16 +14,13 @@
     background: darkslategrey;
     border-radius: 50px;
     margin-left: 25px;
-    text-align: right;
-    border: px solid green;
-    
+    text-align: right;   
 }
 
 .display-container .zero {
     color: white;
     font-size: 50px;
-    margin-right: 20px;
-    
+    margin-right: 20px;  
 }
 
 .logo {
@@ -32,7 +29,6 @@
     margin-bottom: 5px;
     margin-left: 20px;
     margin-bottom: 10px;
-   
 }
 
 
@@ -41,20 +37,15 @@
     margin-top: 12px;
     height: 400px;
     width: 17%;
-    
-    
-
 }
+
 .specials-container {
     display: inline-flex;
-    width: 73%;
-    
-   
+    width: 73%;  
 }
 
 .button-container{
-    height: 450px;
-    
+    height: 450px;  
 }
 
 .buttons {
@@ -67,8 +58,7 @@
     height: 60px;
     border-radius: 50%;
     box-shadow: 0 7px 10px black;
-    border: 1px solid grey;
-    
+    border: 1px solid grey;   
 }
 
 .num-button {
@@ -79,12 +69,12 @@
     width: 54%;
     border-radius: 55px;
 }
+
 .num-button:last-child {
     margin-left: 17px;
 }
 
 .operator-button {
-
     background: #9199c7; 
 }
 

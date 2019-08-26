@@ -25,18 +25,16 @@ function App() {
         <Logo />
         <Display />
         <section className="button-container">
-        <div className="specials-container">
-          <div>
-          <Specials />
-          <Numbers />
-        </div>
-        </div>
-        <div className="operator-container">
-          <Operators />
-        </div>
+          <div className="specials-container">
+            <div>
+              <Specials />
+              <Numbers />
+            </div>
+          </div>
+          <div className="operator-container">
+            <Operators />
+          </div>
         </section>
-
-        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
     </div>
   );

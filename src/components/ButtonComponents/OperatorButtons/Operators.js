@@ -13,8 +13,8 @@ const Operators = () => {
   return (
     <div>
       {operatorState.map((item, index) => {
-         return <OperatorButton key={index} operator={item} />
-       })}
+        return <OperatorButton key={index} operator={item} />
+      })}
     </div>
   );
 };

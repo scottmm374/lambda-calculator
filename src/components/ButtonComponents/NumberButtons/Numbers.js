@@ -13,8 +13,8 @@ const Numbers = () => {
     <div>
       {numberState.map((item, index) => {
         //  console.log("item", item);
-         return <NumberButton key={index} number={item} />
-       })}
+        return <NumberButton key={index} number={item} />
+      })}
     </div>
   );
 };
