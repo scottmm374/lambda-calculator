@@ -62,7 +62,7 @@
 }
 
 .num-button {
-    background: #5a67af;  
+    background: #2e48dd;    
 }
 
 .num-button:nth-child(10){
@@ -79,5 +79,5 @@
 }
 
 .special-button {
-    background: #2e48dd;  
+    background: #5a67af;
 }
