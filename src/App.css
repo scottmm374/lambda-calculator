@@ -32,39 +32,33 @@
 }
 
 .number-container {
-    display: grid;
-    grid-template-columns: 1fr ;
-    
-   border: 3px solid green;
+    width: 75%;
+    border: 3px solid green;
    
 }
 
 .operator-container {
-    display: grid;
-    grid-template-columns: 1fr;
-   
+    width: 25%;
     border: 2px solid yellow;
     
 
 }
 .specials-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    
-    
+    width: 75%;
     border: 2px solid blue;
    
 }
 
 .buttons {
     display: grid;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     color: white;
     font-size: 20px;;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     box-shadow: 0 7px 10px black;
+    border: 1px solid grey;
     
 }
 
