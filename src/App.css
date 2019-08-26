@@ -27,31 +27,39 @@
 }
 
 .logo {
-    margin-top: 10px;
+    width: 27%;
+    margin-top: 20px;
+    margin-bottom: 5px;
     margin-left: 20px;
+    margin-bottom: 10px;
+   
 }
 
-/* .number-container {
-    width: 75%;
-    border: 3px solid green;
-   
-} */
 
 .operator-container {
     display: inline-flex;
+    margin-top: 12px;
+    height: 400px;
     width: 17%;
-    border: 2px solid yellow;
+    
     
 
 }
 .specials-container {
     display: inline-flex;
     width: 73%;
-    border: 2px solid blue;
+    
    
 }
 
+.button-container{
+    height: 450px;
+    
+}
+
 .buttons {
+    margin-top: 22px;
+    margin-left: 20px;
     color: white;
     margin-right: 15px;
     font-size: 20px;;
@@ -68,12 +76,15 @@
 }
 
 .num-button:nth-child(10){
-    width: 50%;
+    width: 54%;
     border-radius: 55px;
-    background: green;
+}
+.num-button:last-child {
+    margin-left: 17px;
 }
 
 .operator-button {
+
     background: #9199c7; 
 }
 
