@@ -31,28 +31,29 @@
     margin-left: 20px;
 }
 
-.number-container {
+/* .number-container {
     width: 75%;
     border: 3px solid green;
    
-}
+} */
 
 .operator-container {
-    width: 25%;
+    display: inline-flex;
+    width: 17%;
     border: 2px solid yellow;
     
 
 }
 .specials-container {
-    width: 75%;
+    display: inline-flex;
+    width: 73%;
     border: 2px solid blue;
    
 }
 
 .buttons {
-    display: grid;
-    /* grid-template-columns: 1fr; */
     color: white;
+    margin-right: 15px;
     font-size: 20px;;
     width: 60px;
     height: 60px;
@@ -64,6 +65,12 @@
 
 .num-button {
     background: #5a67af;  
+}
+
+.num-button:nth-child(10){
+    width: 50%;
+    border-radius: 55px;
+    background: green;
 }
 
 .operator-button {

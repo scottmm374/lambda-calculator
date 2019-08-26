@@ -26,10 +26,10 @@ function App() {
         <Display />
         <section className="button-container">
         <div className="specials-container">
+          <div>
           <Specials />
-        </div>
-        <div className="number-container">
           <Numbers />
+        </div>
         </div>
         <div className="operator-container">
           <Operators />
