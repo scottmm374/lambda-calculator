@@ -5,6 +5,7 @@
     border: 1px solid grey;
     background: #d33d3d;
     border-radius: 10px;
+   
 }
 
 .display-container {
@@ -13,14 +14,16 @@
     background: darkslategrey;
     border-radius: 50px;
     margin-left: 25px;
-    display: flex;
+    text-align: right;
+    border: px solid green;
     
 }
 
 .display-container .zero {
     color: white;
-    font-size: 40px;
-    justify-content: left;
+    font-size: 50px;
+    margin-right: 20px;
+    
 }
 
 .logo {
@@ -28,7 +31,34 @@
     margin-left: 20px;
 }
 
+.number-container {
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+   border: 3px solid green;
+   
+}
+
+.operator-container {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    border: 2px solid yellow;
+    
+
+}
+.specials-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    
+    border: 2px solid blue;
+   
+}
+
 .buttons {
+    display: grid;
+    grid-template-columns: 1fr;
     color: white;
     font-size: 20px;;
     width: 60px;
@@ -39,15 +69,13 @@
 }
 
 .num-button {
-    background: #5a67af;
+    background: #5a67af;  
 }
 
 .operator-button {
-    background: #9199c7;
-   
+    background: #9199c7; 
 }
 
 .special-button {
-    background: #2e48dd;
-    
+    background: #2e48dd;  
 }

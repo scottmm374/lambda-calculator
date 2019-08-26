@@ -24,10 +24,17 @@ function App() {
       <div className="App">
         <Logo />
         <Display />
-        <Specials />
-        <Numbers />
-        
-        <Operators />
+        <section className="button-container">
+        <div className="specials-container">
+          <Specials />
+        </div>
+        <div className="number-container">
+          <Numbers />
+        </div>
+        <div className="operator-container">
+          <Operators />
+        </div>
+        </section>
 
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
