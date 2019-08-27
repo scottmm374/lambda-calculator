@@ -1,0 +1,83 @@
+.App {
+    min-height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    background: #d33d3d;
+    border-radius: 10px;
+    box-shadow: 0 7px 10px black;
+}
+
+.display-container {
+    width: 345px;
+    min-height: 80px;
+    background: darkslategrey;
+    border-radius: 50px;
+    margin-left: 25px;
+    text-align: right;   
+}
+
+.display-container .zero {
+    color: white;
+    font-size: 50px;
+    margin-right: 20px;  
+}
+
+.logo {
+    width: 27%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.operator-container {
+    display: inline-flex;
+    margin-top: 12px;
+    height: 400px;
+    width: 17%;
+}
+
+.specials-container {
+    display: inline-flex;
+    width: 73%;  
+}
+
+.button-container{
+    height: 450px;  
+}
+
+.buttons {
+    margin-top: 22px;
+    margin-left: 20px;
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 7px 10px black;
+    border: 1px solid grey;   
+}
+
+.num-button {
+    background: #2e48dd;    
+}
+
+.num-button:nth-child(10){
+    width: 54%;
+    border-radius: 55px;
+}
+
+.num-button:last-child {
+    margin-left: 17px;
+}
+
+.operator-button {
+    background: #9199c7; 
+}
+
+.special-button {
+    background: #5a67af;
+}
